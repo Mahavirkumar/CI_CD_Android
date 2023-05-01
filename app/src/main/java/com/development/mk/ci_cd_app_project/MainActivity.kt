@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.butonClick.setOnClickListener {
-            binding.textviewName.text="helo ${binding.editTextName.text}"
+            binding.textviewName.text="helo ${binding.editTextName.text}! how are u"
         }
-        Toast.makeText(this,binding.textviewName.text,Toast.LENGTH_LONG)
+        Toast.makeText(this,binding.textviewName.text,Toast.LENGTH_LONG).show()
     }
 }
